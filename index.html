@@ -43,8 +43,8 @@
         </div>
       </div>
       <div class="btn-box">
-        <a href="" class="btn">Download Cv</a>
-        <a href="" class="btn">Hire Me Now!</a>
+        <a href="./yaseen-chikfar-cv.pdf" class="btn" download="yaseen-chikfar-cv">Download Cv</a>
+        <a href="https://wa.me/923480120789" class="btn">Hire Me Now!</a>
       </div>
       <div class="social-icons">
         <a href="https://www.facebook.com/YaseenChikfar" target="_blank"><i class='bx bxl-facebook-circle' ></i></box-icon></a>
@@ -129,7 +129,14 @@
     <div class="about-content scroll-scale">
       <span>Let Me Introduce Myself</span>
       <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ea sapiente illum consequuntur, incidunt quam amet, odio natus laudantium, nobis officia illo in similique consectetur facere perspiciatis quasi. Voluptatem obcaecati sapiente maxime quas.</p>
+      <p>Hi there! 👋 I’m YASEEN CHIKFAR , a passionate and detail-oriented **front-end developer** on a mission to craft beautiful, user-friendly digital experiences. Fresh to the tech world but fueled by curiosity and a love for problem-solving, I thrive at the intersection of creativity and code.  
+
+        I specialize in turning ideas into responsive, accessible websites using **HTML, CSS, and JavaScript**, with a growing expertise in modern frameworks like **React**. Whether I’m building a dynamic app, optimizing site performance, or experimenting with animations, I prioritize clean code and seamless user experiences.  
+        
+        What excites me most about development is the constant opportunity to learn and innovate. 
+        
+        
+        Let’s connect and build something amazing together! 💡</p>
       <div class="btn-box">
         <a href="#" class="btn">Read More</a>
       </div>
@@ -143,9 +150,9 @@
     <div class="section-services scroll-bottom">
       <div class="service-box">
         <i class='bx bx-code-alt service-icon' ></i>
-        <h3>Graphic Design</h3>
+        <h3>website development</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta voluptates dolor beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, consequatur.
+          creat user-friendly and dynamic websites with letest fram works
         </p>
         <div class="btn-box service-btn">
           <a href="#" class="btn">Read More</a>
@@ -155,7 +162,7 @@
         <i class='bx bx-desktop service-icon' ></i>
         <h3>Graphic Design</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta voluptates dolor beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ab?
+          eye catching and beautiful design of posters, thumbnails, logos and much more
         </p>
         <div class="btn-box service-btn">
           <a href="#" class="btn">Read More</a>
@@ -163,9 +170,9 @@
       </div>
       <div class="service-box">
         <i class='bx bxs-layer service-icon'></i>
-        <h3>Graphic Design</h3>
+        <h3>UI/UX Design</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta voluptates dolor beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, consectetur.
+          design a user user-friendly and creative websites using digital softwares like figma
         </p>
         <div class="btn-box service-btn">
           <a href="#" class="btn">Read More</a>
@@ -338,14 +345,15 @@
       <span>stay connected</span>
       <h2>Contect</h2>
     </div>
-    <form action="#" class="scroll-scale">
-      <input type="text" placeholder="Your Name">
-      <input type="text" placeholder="Your Email">
-      <input type="text" placeholder="Your Adress">
-      <input type="text" placeholder="Phone Number">
-      <textarea name="massage" id="massage" placeholder="massage..."></textarea>
+    <form action="https://api.web3forms.com/submit" method="POST" class="scroll-scale">
+      <input type="hidden" name="access_key" value="13f6133e-6bb0-4191-8dfa-b42c38346069">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email"placeholder="Your Email" required>
+      <input type="text" name="adress"placeholder="Your Adress" required>
+      <input type="number" name="phone-number" placeholder="Phone Number" required>
+      <textarea name="massage" name="massage" placeholder="massage..." required></textarea>
       <div class="btn-box formBtn">
-        <button type="submit" class="btn">Sent Massage</button>
+        <button type="submit" id="sent-massage" class="btn">Sent Massage</button>
       </div>
     </form>
   </section>
@@ -356,6 +364,7 @@
 
   
   <div class="ldsp" id="loader"><div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

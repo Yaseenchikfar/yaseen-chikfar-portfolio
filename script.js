@@ -125,3 +125,7 @@ scrollTop.forEach((el) => observer.observe(el));
 
 const scrollBottom = document.querySelectorAll(".scroll-bottom");
 scrollBottom.forEach((el) => observer.observe(el));
+
+
+
+
